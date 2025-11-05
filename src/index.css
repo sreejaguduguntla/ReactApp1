@@ -66,3 +66,9 @@ main > h1 {
   padding-block: 10px; 
   line-height: 19px;
 }
+
+.facts-list > li::marker {
+  /* Marker is for styling the bullet points */
+  font-size: 1.5rem;
+  color: #61DAFB;
+}
