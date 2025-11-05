@@ -3,9 +3,10 @@
 }
 
 body {
-    padding: 20px;
+    /* padding: 0px; */
+    margin: 0px;
     font-family: Inter, sans-serif;
-    background: #27292c;
+    background-color: #282D35;
     color: white;
 }
 
@@ -22,6 +23,7 @@ nav{
   align-items: center ;
   height: 100%;
   justify-content: space-between;
+  background-color: #21222A;
 }
 
 .nav-left{
@@ -43,4 +45,24 @@ nav > div > span {
     color: #61DAFB;
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+main {
+    padding: 60px 30px;
+}
+
+main > h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.facts-list{
+  margin-top: 46px;
+  max-width: 1000px;
+}
+
+.facts-list > li{
+  /* For top and bottom */
+  padding-block: 10px; 
+  line-height: 19px;
 }
